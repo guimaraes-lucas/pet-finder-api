@@ -6,7 +6,7 @@ one:
   age: 1
   weight: 1.5
   city: MyString
-  type_pet: one
+  kind: one
   user: one
 
 two:
@@ -15,5 +15,5 @@ two:
   age: 1
   weight: 1.5
   city: MyString
-  type_pet: two
+  kind: two
   user: two

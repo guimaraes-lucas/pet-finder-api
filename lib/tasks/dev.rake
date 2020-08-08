@@ -21,7 +21,7 @@ namespace :dev do
     100.times do |_i|
       Pet.create!(
         user: User.all.sample,
-        type_pet: TypePet.all.sample,
+        kind: Kind.all.sample,
         name: Faker::Music.band,
         breed: Faker::Date.forward,
         age: rand(0..18),

@@ -1,1 +1,1 @@
-TypePet.create([{ name: 'Cachorro' }, { name: 'Gato' }])
+Kind.create([{ name: 'Cachorro' }, { name: 'Gato' }])

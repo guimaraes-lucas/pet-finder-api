@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class TypePetTest < ActiveSupport::TestCase
+class KindTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
