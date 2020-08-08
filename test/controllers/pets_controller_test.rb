@@ -12,7 +12,7 @@ class PetsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create pet" do
     assert_difference('Pet.count') do
-      post pets_url, params: { pet: { age: @pet.age, breed: @pet.breed, city: @pet.city, name: @pet.name, type_pet_id: @pet.type_pet_id, weight: @pet.weight } }, as: :json
+      post pets_url, params: { pet: { age: @pet.age, breed: @pet.breed, city: @pet.city, name: @pet.name, type_pet_id: @pet.type_pet_id, user_id: @pet.user_id, weight: @pet.weight } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class PetsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update pet" do
-    patch pet_url(@pet), params: { pet: { age: @pet.age, breed: @pet.breed, city: @pet.city, name: @pet.name, type_pet_id: @pet.type_pet_id, weight: @pet.weight } }, as: :json
+    patch pet_url(@pet), params: { pet: { age: @pet.age, breed: @pet.breed, city: @pet.city, name: @pet.name, type_pet_id: @pet.type_pet_id, user_id: @pet.user_id, weight: @pet.weight } }, as: :json
     assert_response 200
   end
 

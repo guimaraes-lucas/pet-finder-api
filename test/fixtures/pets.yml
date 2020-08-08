@@ -7,6 +7,7 @@ one:
   weight: 1.5
   city: MyString
   type_pet: one
+  user: one
 
 two:
   name: MyString
@@ -15,3 +16,4 @@ two:
   weight: 1.5
   city: MyString
   type_pet: two
+  user: two
