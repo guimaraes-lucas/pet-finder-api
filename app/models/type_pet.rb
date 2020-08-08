@@ -1,3 +1,3 @@
 class TypePet < ApplicationRecord
-  has_one :pet
+  has_many :pets, dependent: :destroy
 end
